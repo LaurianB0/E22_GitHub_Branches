@@ -17,6 +17,7 @@ namespace ZombieParty_DataAccess.Data
     public DbSet<Zombie> Zombie { get; set; }
     public DbSet<ZombieType> ZombieType { get; set; }
     public DbSet<HuntingLog> HuntingLog { get; set; }
+    public DbSet<Hunter> Hunter { get; set; }
     
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
